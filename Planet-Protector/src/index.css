@@ -2,6 +2,7 @@ html {
   height: 100%;
   width: 100%;
   text-decoration-color: white;
+  background-color: black;
 }
 
 .title {
@@ -36,7 +37,7 @@ html {
 }
 
 #ppFeature-2 {
-  background-image: url("./Assets/black-space-1.jpg");
+  background-image: url("./Assets/black-space.webp");
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -84,95 +85,98 @@ section {
   position: relative;
 }
 
-.button-1 {
-  color: whitesmoke;
-  margin-top: 1.2rem;
-  display: inline-block;
-  max-width: 200px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 0.85rem;
-  letter-spacing: 0.1rem;
-  opacity: 1;
-  border: 3px solid #7821b1d3;
-  padding: 1rem 2rem;
-  text-decoration: none;
-  cursor: pointer;
-  background-position: 10px, 20px;
-  background-image: url("./Assets/purple-space.jpg");
-  background-size: cover;
-}
-
-.button-1:hover {
-  color: gold;
-}
-
-.button-2 {
-  color: whitesmoke;
-  margin-top: 1.2rem;
-  display: inline-block;
-  max-width: 200px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 0.85rem;
-  letter-spacing: 0.1rem;
-  opacity: 1;
-  border: 4px solid #7821b1d3;
-  padding: 1rem 2rem;
-  background-position: 10px, 20px;
-  position: relative;
-  cursor: pointer;
-  background-image: url("./Assets/purple-space.jpg");
-  background-size: cover;
-}
-
-.button-2:hover {
-  color: gold;
-}
-
-.button-3 {
-  color: whitesmoke;
-  margin-top: 1.2rem;
-  display: inline-block;
-  max-width: 200px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 0.85rem;
-  letter-spacing: 0.1rem;
-  opacity: 1;
+#planetButton {
   border: 2px solid #7821b1d3;
-  padding: 1rem 2rem;
-  text-decoration: none;
-  background-position: 10px, 20px;
-  position: relative;
-  cursor: pointer;
-  background-image: url("./Assets/purple-space.jpg");
-  background-size: cover;
-}
-
-.button-3:hover {
-  color: gold;
-}
-
-.button-4 {
-  color: whitesmoke;
-  margin-top: 1.2rem;
+  padding: 60px;
+  text-align: center;
   display: inline-block;
+  margin: 4px 2px;
+  background-image: url("https://scitechdaily.com/images/Stunning-View-of-Earth-From-GOES-18.jpg");
+  background-attachment: fixed;
+  border-radius: 60%;
+  margin-top: 1.2rem;
   max-width: 200px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 0.85rem;
   letter-spacing: 0.1rem;
-  opacity: 1;
-  border: 3px solid #7821b1d3;
-  padding: 1rem 2rem;
-  text-decoration: none;
-  cursor: pointer;
   background-position: 10px, 20px;
-  background-image: url("./Assets/purple-space.jpg");
-  background-size: cover;
+  position: relative;
+  cursor: pointer;
 }
 
-.button-4:hover {
+.planetButton:hover {
+  color: gold;
+}
+
+#moonButton {
+  border: 2px solid #7821b1d3;
+  padding: 60px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b3/Full_moon.jpeg");
+  background-attachment: fixed;
+  border-radius: 60%;
+  margin-top: 1.2rem;
+  max-width: 200px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.1rem;
+  background-position: 10px, 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+#moonButton:hover {
+  color: gold;
+}
+
+#sunButton {
+  border: 2px solid #7821b1d3;
+  padding: 60px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  background-image: url("https://justfunfacts.com/wp-content/uploads/2015/11/sun-300x297.jpg");
+  background-attachment: fixed;
+  border-radius: 60%;
+  margin-top: 1.2rem;
+  max-width: 200px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.1rem;
+  background-position: 10px, 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+#sunButton:hover {
+  color: gold;
+}
+
+#galaxyButton {
+  border: 2px solid #7821b1d3;
+  padding: 60px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Andromeda-Galaxy-Milky-Way.jpg");
+  background-attachment: fixed;
+  border-radius: 60%;
+  margin-top: 1.2rem;
+  max-width: 200px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.1rem;
+  background-position: 10px, 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+#galaxyButton:hover {
   color: gold;
 }
